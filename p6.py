@@ -9,6 +9,8 @@ num_two = 55
 
 print( num_one > num_two )
 
+# true and false conditions
+
 db_password = "boss123"
 user_password = "boss1234"
 
