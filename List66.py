@@ -20,3 +20,19 @@ salaries = [ 1000, 2000, 3000, 4000, 5000]
 print( salaries )
 
 print( len(salaries) )
+
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+squares = [num**2 for num in nums]
+
+print( squares )
+
+words = ["APPLE", "BANANA", "ORANGE"]
+
+lowercase_words = [word.lower() for word in words]
+
+print( lowercase_words )
+
+print( words[0].lower() )
+print( words[1].lower() )
+print( words[2].lower() )
